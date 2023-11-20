@@ -1,0 +1,89 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.inspiration-image {
+    position: absolute;
+    width: 400px;
+    height: auto;
+    margin-top: -100px;
+    margin-left: 150px;
+}
+
+.inspiration-container {
+    position: relative;
+    margin-top: 250px;
+    margin-left: 600px;
+    width: 650px;
+    height: 200px;
+    padding: 20px;
+    background: linear-gradient(116.93deg, #3f4954 1%, #26292d 80%);
+    cursor: pointer;
+    border: 20px solid #F1EAFF;
+    border-radius: 50px;
+    color: yellow;
+    box-shadow: 0 60px 12px -18px rgba(0, 0, 0, 0.1), 0 60px 20px -12px rgba(0, 0, 0, 0.1);
+}
+
+
+.motive {
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.resume-container {
+    display: flex;
+    margin-top: 200px;
+    width: 85%;
+    margin-left: 120px;
+    border: 2px solid black;
+    border-radius: 13px;
+    font-size: 16px;
+    border: 20px solid #F1EAFF;
+}
+
+.download-btn {
+    position: absolute;
+    top: 600px;
+    margin-left: 850px;
+    border-radius: 13px;
+
+}
+
+
+
+@media screen and (max-width:850px) {
+
+    .inspiration-image {
+        width: 300px;
+        height: auto;
+        margin-left: 19%;
+    }
+
+    .inspiration-container {
+        top: 230px;
+        margin-left: 0;
+        width: 100%;
+        height: auto;
+        border: 10px solid #F1EAFF;
+
+    }
+
+    .download-btn {
+        margin-top: 270px;
+        margin-left: 30%;
+        
+    }
+
+
+    .resume-container {
+        margin-top: 500px;
+        width: 100%;
+        margin-left: 5px;
+        border: 10px solid #F1EAFF;
+    }
+
+
+}

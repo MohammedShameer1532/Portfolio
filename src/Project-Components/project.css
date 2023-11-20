@@ -1,0 +1,314 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.project-svg {
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.motivation-container {
+    position: relative;
+    margin-top: -300px;
+    margin-left: 550px;
+    width: 650px;
+    height: 160px;
+    background: linear-gradient(116.93deg, #3f4954 1%, #26292d 80%);
+    cursor: pointer;
+    border: 20px solid #F1EAFF;
+    border-radius: 50px;
+    color: yellow;
+    box-shadow: 0 60px 12px -18px rgba(0, 0, 0, 0.1), 0 60px 20px -12px rgba(0, 0, 0, 0.1);
+}
+
+.project-title {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 530px;
+}
+
+.motive {
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.crud-image,
+.rating-image,
+.weather-image,
+.tictaktoe-image,
+.imdb-image,
+.login-image {
+    width: 400px;
+    height: 300px;
+    border: 0.5px solid black;
+    border-radius: 20px;
+    box-shadow: 0 60px 12px -18px rgba(0, 0, 0, 0.1), 0 60px 20px -12px rgba(0, 0, 0, 0.1);
+}
+
+.crudimage-container {
+    margin-top: 400px;
+    margin-left: 30px;
+}
+
+.crud-hide {
+    position: absolute;
+    color: #212529;
+    background-color: rgba(0, 0, 0, .8);
+    margin-top: -300px;
+    margin-left: 30px;
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.crud-hide:hover,
+.rating-hide:hover,
+.weather-hide:hover,
+.tictaktoe-hide:hover,
+.imdb-hide:hover,
+.login-hide:hover {
+    color: #fff;
+    opacity: 1;
+}
+
+
+.ratingimage-container {
+    margin-top: -300px;
+    margin-left: 480px;
+}
+
+.rating-hide {
+    position: absolute;
+    color: #212529;
+    background-color: rgba(0, 0, 0, .8);
+    margin-top: -300px;
+    margin-left: 480px;
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.weatherimage-container {
+    margin-top: -300px;
+    margin-left: 930px;
+}
+
+.weather-hide {
+    position: absolute;
+    color: #212529;
+    background-color: rgba(0, 0, 0, .8);
+    margin-top: -300px;
+    margin-left: 930px;
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tictactoeimage-container {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.tictaktoe-hide {
+    position: absolute;
+    color: #212529;
+    background-color: rgba(0, 0, 0, .8);
+    margin-top: -300px;
+    margin-left: 30px;
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imdbimage-container {
+    margin-top: -300px;
+    margin-left: 480px;
+}
+
+.imdb-hide {
+    position: absolute;
+    color: #212529;
+    background-color: rgba(0, 0, 0, .8);
+    margin-top: -300px;
+    margin-left: 480px;
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginimage-container {
+    margin-top: -300px;
+    margin-left: 930px;
+}
+
+.login-hide {
+    position: absolute;
+    color: #212529;
+    background-color: rgba(0, 0, 0, .8);
+    margin-top: -300px;
+    margin-left: 930px;
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:850px) {
+    .project-svg {
+        width: 50%;
+        height: auto;
+        margin-left: 25%;
+        margin-top: 100px;
+    }
+
+
+    .motivation-container {
+        font-size: 14px;
+        margin-top: 150px;
+        margin-left: 0px;
+        width: 100%;
+        height: auto;
+        border: 10px solid #F1EAFF;
+    }
+
+    .motive {
+        font-size: 14px;
+    }
+
+    .project-title {
+        margin-top: 90px;
+        font-size: 14px;
+        margin-left: 35%;
+    }
+
+    .crudimage-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+        margin-left: 0;
+    }
+
+    .crud-hide,
+    .rating-hide,
+    .weather-hide,
+    .tictaktoe-hide,
+    .imdb-hide,
+    .login-hide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .crud-hide p,
+    .rating-hide p,
+    .weather-hide p,
+    .tictaktoe-hide p,
+    .imdb-hide p,
+    .login-hide p {
+        font-size: 14px;
+    }
+
+    .crud-image,
+    .rating-image,
+    .weather-image,
+    .tictaktoe-image,
+    .imdb-image,
+    .login-image {
+        width: 80%;
+        height: 300px;
+        border: 0.5px solid black;
+        border-radius: 20px;
+        box-shadow: 0 60px 12px -18px rgba(0, 0, 0, 0.1), 0 60px 20px -12px rgba(0, 0, 0, 0.1);
+    }
+
+
+    .tictactoeimage-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+        margin-left: 0;
+    }
+
+    .ratingimage-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+        margin-left: 0;
+    }
+
+
+    .weatherimage-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+        margin-left: 0;
+    }
+
+    .imdbimage-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+        margin-left: 0;
+    }
+
+    .loginimage-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+        margin-left: 0;
+    }
+}
